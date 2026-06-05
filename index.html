@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPS - Meudjiem Prestation & Services | Accompagnement Administratif</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --mps-blue: #1e3a8a;
+            --mps-red: #dc2626;
+        }
+        .bg-mps-blue { background-color: var(--mps-blue); }
+        .text-mps-blue { color: var(--mps-blue); }
+        .border-mps-red { border-color: var(--mps-red); }
+        .hero-gradient { background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1573164060897-425941c30241?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-3xl font-bold text-mps-blue">M<span class="text-mps-red">P</span>S</span>
+                        <span class="ml-2 text-xs font-semibold leading-tight text-gray-600 hidden md:block">MEUDJIEM PRESTATION<br>& SERVICES</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-gray-700 hover:text-mps-blue">Services</a>
+                    <a href="#simulateur" class="text-gray-700 hover:text-mps-blue">Simulateur Fiscal</a>
+                    <a href="#erp" class="text-gray-700 hover:text-mps-blue">Espace Client</a>
+                    <a href="https://wa.me/33759083580" class="bg-mps-blue text-white px-6 py-2 rounded-full hover:bg-blue-800 transition shadow-lg">
+                        <i class="fab fa-whatsapp mr-2"></i>Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 uppercase tracking-tight">Information et Orientation</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light italic text-blue-100 italic">"Confidentialité & Discrétion assurées"</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#services" class="bg-mps-red text-white px-8 py-3 rounded-md font-bold hover:bg-red-700 transition">Nos Services</a>
+                <a href="#erp" class="bg-white text-mps-blue px-8 py-3 rounded-md font-bold hover:bg-gray-100 transition">Suivre mon Dossier</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900">Expertise & Accompagnement</h2>
+            <div class="w-24 h-1 bg-mps-red mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-users-cog"></i></div>
+                <h3 class="text-xl font-bold mb-3">Accompagnement Social</h3>
+                <p class="text-gray-600">Accès au droit, démarches administratives et suivi personnalisé de votre situation.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-file-invoice"></i></div>
+                <h3 class="text-xl font-bold mb-3">Démarches Préfecture</h3>
+                <p class="text-gray-600">Demande et renouvellement de Titres de Séjour. Expertise pour votre dossier de nationalité.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-passport"></i></div>
+                <h3 class="text-xl font-bold mb-3">Visas & Passeports</h3>
+                <p class="text-gray-600">Formalités en ligne pour visas et passeports Camerounais. Rapidité et conformité.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-pen-fancy"></i></div>
+                <h3 class="text-xl font-bold mb-3">Écrivain Public</h3>
+                <p class="text-gray-600">Remplissage de tout type de document, CSS, courriers officiels et recours gracieux.</p>
+            </div>
+            <!-- Card 5 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-home"></i></div>
+                <h3 class="text-xl font-bold mb-3">Services à la Personne</h3>
+                <p class="text-gray-600">Ménage, repassage, courses. Bénéficiez de 50% de crédit d'impôt immédiat.</p>
+            </div>
+            <!-- Card 6 -->
+            <div class="bg-white p-8 rounded-xl shadow-sm border-t-4 border-mps-red hover:shadow-xl transition">
+                <div class="text-mps-blue text-3xl mb-4"><i class="fas fa-child"></i></div>
+                <h3 class="text-xl font-bold mb-3">Droit de la Famille</h3>
+                <p class="text-gray-600">Accompagnement pour le regroupement familial et les dossiers d'état civil.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simulateur Fiscal -->
+    <section id="simulateur" class="py-20 bg-mps-blue text-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-white text-gray-900 rounded-2xl p-8 shadow-2xl">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <i class="fas fa-calculator text-mps-red mr-3"></i> Simulateur Crédit d'Impôt (50%)
+                </h2>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Montant de la prestation (€)</label>
+                        <input type="number" id="amount" placeholder="Ex: 100" class="mt-1 block w-full border border-gray-300 rounded-md p-3 shadow-sm focus:ring-mps-blue focus:border-mps-blue">
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg">
+                        <div class="flex justify-between mb-2">
+                            <span>Coût réel pour vous :</span>
+                            <span id="finalCost" class="font-bold text-mps-blue text-xl">0.00 €</span>
+                        </div>
+                        <p class="text-xs text-gray-500 italic">* Sous réserve d'éligibilité au crédit d'impôt "Services à la personne".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Micro-ERP / Suivi de Dossier -->
+    <section id="erp" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+            <div class="bg-gray-800 text-white p-6">
+                <h2 class="text-xl font-bold">Portail de Suivi Sécurisé</h2>
+                <p class="text-gray-400 text-sm">Consultez l'avancement de vos démarches en temps réel.</p>
+            </div>
+            <div class="p-8">
+                <div class="flex flex-col md:flex-row gap-4 mb-8">
+                    <input type="text" placeholder="N° de Dossier (ex: MPS-2024-001)" class="flex-1 border border-gray-300 rounded-md p-3">
+                    <button class="bg-mps-blue text-white px-8 py-3 rounded-md hover:bg-blue-900">Rechercher</button>
+                </div>
+                
+                <!-- Mockup de dossier -->
+                <div class="border rounded-lg p-6 bg-gray-50">
+                    <div class="flex flex-wrap justify-between items-center mb-6">
+                        <div>
+                            <span class="text-sm text-gray-500 uppercase font-bold tracking-wider">Statut Actuel</span>
+                            <h4 class="text-xl font-bold text-mps-blue">Déposé en Préfecture</h4>
+                        </div>
+                        <div class="bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold">
+                            En cours de traitement
+                        </div>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 mb-6">
+                        <div class="bg-mps-blue h-2.5 rounded-full" style="width: 75%"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                        <div class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i> Pièces reçues</div>
+                        <div class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-2"></i> Analyse juridique</div>
+                        <div class="flex items-center text-gray-400"><i class="fas fa-clock mr-2"></i> Validation finale</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-4 italic">MPS</h3>
+                <p class="text-gray-400">Votre partenaire de confiance pour toutes vos démarches administratives et sociales. Rapidité, Expertise et Confidentialité.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 uppercase">Contact direct</h4>
+                <p class="flex items-center mb-2"><i class="fas fa-phone mr-3 text-mps-red"></i> 07 59 08 35 80</p>
+                <p class="flex items-center mb-2"><i class="fab fa-whatsapp mr-3 text-green-500"></i> WhatsApp disponible</p>
+                <p class="flex items-center"><i class="fas fa-map-marker-alt mr-3 text-mps-red"></i> Service National & International</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 uppercase">Horaires d'accueil</h4>
+                <p class="text-gray-400">Lundi - Vendredi : 09h00 - 18h00</p>
+                <p class="text-gray-400">Samedi : Sur rendez-vous</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
+            &copy; 2024 MEUDJIEM PRESTATION & SERVICES. Tous droits réservés. <br>
+            <span class="text-xs uppercase">Pour gagner en temps, faites vous accompagner !</span>
+        </div>
+    </footer>
+
+    <script>
+        // Simulateur Fiscal
+        const amountInput = document.getElementById('amount');
+        const finalCostOutput = document.getElementById('finalCost');
+
+        amountInput.addEventListener('input', (e) => {
+            const val = e.target.value;
+            if(val) {
+                const result = val * 0.5;
+                finalCostOutput.innerText = result.toFixed(2) + ' €';
+            } else {
+                finalCostOutput.innerText = '0.00 €';
+            }
+        });
+    </script>
+</body>
+</html>
